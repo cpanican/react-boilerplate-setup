@@ -1,0 +1,26 @@
+{
+  "name": "react-boilerplate-setup",
+  "version": "1.0.0",
+  "description": "Minimal React, Webpack, Babel, Jest and Eslint setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpanican/react-boilerplate-setup.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Chris Panican",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpanican/react-boilerplate-setup/issues"
+  },
+  "homepage": "https://github.com/cpanican/react-boilerplate-setup#readme",
+  "dependencies": {
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}
