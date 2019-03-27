@@ -9,7 +9,6 @@ Clone this repository and navigate to project directory.
 
 ## Available scripts
 
-1. `npm start`
-2. `npm test`
-3. `npm lint`
-4. `npm lint --fix`
+1. `npm start` start code in development mode.
+2. `npm build` build application to production
+3. `npm test` run test cases
