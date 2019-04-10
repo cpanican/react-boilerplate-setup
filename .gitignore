@@ -3,6 +3,7 @@ node_modules/
 
 # Project
 dist/
+coverage/
 
 # Misc
 .DS_Store
