@@ -1,13 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Root from './Root';
 
-const App = () => (
-  <div>
-    <p>React Boilerplate with Webpack, Babel, Jest and Eslint.</p>
-  </div>
-);
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+ReactDOM.render(<Root />, document.getElementById('root'));
