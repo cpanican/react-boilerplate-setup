@@ -11,8 +11,8 @@ Clone this repository and navigate to project directory. Run the commands below.
 
 ## Available scripts
 1. `npm start` start code in development mode
-3. `npm test` run test cases
+2. `npm test` run test cases
 3. `npm run test:coverage` run test cases
-2. `npm run build` build application to production
-4. `npm run lint` check for syntax errors/inaccuracies
-4. `npm run lint:fix` autofix linting errors (if applicable) 
+4. `npm run build` build application to production
+5. `npm run lint` check for syntax errors/inaccuracies
+6. `npm run lint:fix` autofix linting errors (if applicable)

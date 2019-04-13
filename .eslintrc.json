@@ -18,24 +18,10 @@
   },
   "plugins": ["react", "jest"],
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
+    "linebreak-style": ["error", "unix"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/prop-types": [2],
-    "semi": [
-      "error",
-      "always"
-    ],
-    "max-len": [1, 80, 2, {"ignoreComments": true}]
+    "semi": ["error", "always"],
+    "max-len": [1, 100, 2, {"ignoreComments": true}]
   }
 }
