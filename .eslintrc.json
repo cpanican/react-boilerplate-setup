@@ -4,7 +4,7 @@
         "es6": true,
         "node": true
     },
-    "extends": "eslint:recommended",
+    "extends": "airbnb",
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
@@ -36,7 +36,7 @@
             "error",
             "always"
         ],
-        "max-len": [1, 80, 2],
+        "max-len": [1, 80, 2, {"ignoreComments": true}],
         "react/prop-types": [2]
     }
 }
