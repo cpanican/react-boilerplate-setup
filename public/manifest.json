@@ -1,0 +1,14 @@
+{
+  "short_name": "React Boilerplate",
+  "name": "React Boilerplate",
+  "description": "React Boilerplate with Webpack, Babel, Jest and Eslint.",
+  "start_url": ".",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "60x60",
+      "type": "image/png"
+    }
+  ]
+}
