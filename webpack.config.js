@@ -1,6 +1,8 @@
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  entry: { main: './src/index.js' },
+  mode: 'development',
   module: {
     rules: [
       {
@@ -16,6 +18,10 @@ module.exports = {
             options: { minimize: true },
           },
         ],
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
