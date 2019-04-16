@@ -1,6 +1,8 @@
 # react-boilerplate-setup
 Minimal [React](https://reactjs.org/), [Webpack](https://webpack.js.org/), [Babel](https://babeljs.io/), [Jest](https://jestjs.io/en/) and [ESlint](https://eslint.org/) setup.
 
+http://chrispanican.com/react-boilerplate-setup/
+
 ## How to use
 Clone this repository and navigate to project directory. Run the commands below. 
 
