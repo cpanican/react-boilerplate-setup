@@ -2,6 +2,9 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: { main: './src/index.js' },
+  output: {
+    publicPath: '/',
+  },
   mode: 'development',
   module: {
     rules: [
@@ -24,6 +27,9 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
     ],
+  },
+  devServer: {
+    historyApiFallback: true,
   },
   plugins: [
     new HtmlWebPackPlugin({
